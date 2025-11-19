@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Conversor de Temperatura - Web Component</title>
+    
+  </head>
+  <link rel="stylesheet" href="./public/vendor/bootstrap/css/bootstrap.min.css">
+  <body class="bg-light">
+    <div class="container py-5">
+      <h1 class="mb-4">Conversor de Temperatura, EXAMEN P1</h1>
+      <div class="row gy-4">
+        <div class="col-md-6">
+          <conversor-temperatura formato="C-F"></conversor-temperatura>
+        </div>
+        <div class="col-md-6">
+          <conversor-temperatura formato="F-C"></conversor-temperatura>
+        </div>
+      </div>
+    </div>
+
+    <script type="bootstrap" src="./public/vendor/bootstrap/js/bootstrap.js"></script>  
+    <script type="module" src="./public/components/conversor-tempertatura.js"></script>
+  </body>
+</html>
